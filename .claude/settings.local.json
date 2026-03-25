@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python tests/validate_data.py)",
+      "Bash(python tests/validate_metrics.py)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\(''app.py''\\).read\\(\\)\\); print\\(''Syntax OK''\\)\")",
+      "Bash(pip install:*)",
+      "Bash(streamlit run:*)"
+    ]
+  }
+}
